@@ -37,5 +37,5 @@ The high-level architecture includes:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/retail-sales-data-pipeline.git
-   cd retail-sales-data-pipeline
+   git clone https://github.com/phanikota08/AZ_RetailSales.git
+
