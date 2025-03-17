@@ -35,6 +35,10 @@ The high-level architecture includes:
 - **Documentation:** This README and additional docs.
 - **Power BI Reports:** PBIX files for dashboards.
 
+## Data Set
+
+"https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset"
+
 ## How to Run the Project
 
 1. **Clone the Repository:**
