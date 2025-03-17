@@ -37,7 +37,7 @@ The high-level architecture includes:
 
 ## Data Set
 
-"https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset"
+https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset
 
 ## How to Run the Project
 
