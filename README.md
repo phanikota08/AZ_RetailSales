@@ -24,6 +24,8 @@ The high-level architecture includes:
 4. **Target System:** Azure SQL Database.
 5. **Visualization:** Power BI for reporting.
 6. **Additional Components:** Integration runtimes, data validation.
+7. 
+<img width="979" alt="Screenshot 2025-03-17 at 2 06 56 AM" src="https://github.com/user-attachments/assets/79dbb3c7-da99-4dc1-9f2a-9d60a8d0992e" />
 
 ## Project Components
 
