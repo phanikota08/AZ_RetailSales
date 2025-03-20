@@ -61,8 +61,8 @@ Dataset Source: [Kaggle AI Shop Dataset](https://www.kaggle.com/datasets/varunku
 )
 
 #### **Sales Table**
-![Sales Table](<img width="1429" alt="Screenshot 2025-03-20 at 3 51 39 PM" src="https://github.com/user-attachments/assets/47e72579-a3ff-467c-880d-c1be79260781" />
-)
+<img width="1429" alt="Screenshot 2025-03-20 at 3 51 39 PM" src="https://github.com/user-attachments/assets/47e72579-a3ff-467c-880d-c1be79260781" />
+
 
 #### **Products Table**
 ![Products Table](<img width="1422" alt="Screenshot 2025-03-20 at 3 52 14 PM" src="https://github.com/user-attachments/assets/25f06ed1-5370-43b3-8ab8-e5c6fa0e6f5b" />
