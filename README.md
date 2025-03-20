@@ -122,7 +122,6 @@ Clone the Repository:
 ## Table Creation Scripts (DDL)
 
 ### 1. Customers Table
-
 - This table stores customer information.
 
 ```sql
@@ -142,7 +141,7 @@ CREATE TABLE Customers (
 - City: City of residence.
 - Country: Country of residence
 
-
+```
 ### 2. Products Table
 
 ```sql
@@ -160,7 +159,7 @@ CREATE TABLE Products (
 - Price: Price of the product (up to 10 digits with 2 decimal places).
 - StockQuantity: Number of items available in stock.
 
-
+```
 ### 3. Sales Table
 
 ```sql
@@ -183,7 +182,7 @@ CREATE TABLE Sales (
 - SaleDate: Date when the sale was made.
 - Quantity: Number of units sold.
 - TotalAmount: Total price of the sale.
-
+```
 ### **Clone the Repository**
 ```sh
 git clone https://github.com/phanikota08/AZ_RetailSales.git
