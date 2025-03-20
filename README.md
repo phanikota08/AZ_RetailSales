@@ -23,7 +23,7 @@ The high-level architecture includes:
 3. **Data Transformation:** Azure Data Factory for orchestrating pipelines.
 4. **Target System:** Azure SQL Database.
 5. **Visualization:** Power BI for reporting.
-6. **Additional Components:** Integration runtimes, data validation.
+6. **Additional Components:** Integration runtimes, data validation, Schema enforcement.
 
 <img width="979" alt="Screenshot 2025-03-17 at 2 06 56 AM" src="https://github.com/user-attachments/assets/79dbb3c7-da99-4dc1-9f2a-9d60a8d0992e" />
 
@@ -37,21 +37,34 @@ The high-level architecture includes:
 
 ## Data Set
 
-https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset
+Dataset Source: [Kaggle AI Shop Dataset](https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset)
+## Azure Portal Resources
+### **Azure Data Lake Storage (ADLS) - Bronze Container Overview**
+![ADLS Bronze Container](./Screenshots/adls-bronze.png)
 
-## Azure portal resources
-- **Azure Data Lake Storage (ADLS) - Bronze Container Overview:
-<img width="1438" alt="Screenshot 2025-03-17 at 9 16 35 AM" src="https://github.com/user-attachments/assets/5f93f005-5aa8-4b0a-9d91-1790731b11db" />
-<img width="1439" alt="Screenshot 2025-03-17 at 9 16 50 AM" src="https://github.com/user-attachments/assets/717a9ab9-32f0-4df4-9fa4-3ae34b7230a6" />
-<img width="1231" alt="Screenshot 2025-03-17 at 9 17 06 AM" src="https://github.com/user-attachments/assets/672e6d95-915c-4667-9100-551684f3f0c9" />
-<img width="1440" alt="Screenshot 2025-03-17 at 9 17 26 AM" src="https://github.com/user-attachments/assets/caea7650-e210-49ee-ae19-0b461da5e1b7" />
+## Azure Data Factory (ADF) Pipeline
+### **Pipeline Execution Screenshot**
+![ADF Pipeline Execution](./Screenshots/adf-pipeline-execution.png)
 
+### **Data Transformation - ADF Data Flow**
+![ADF Data Flow](./Screenshots/adf-dataflow.png)
+
+## Azure SQL Database
+### **Tables in Azure SQL**
+#### **Customers Table**
+![Customers Table](./Screenshots/azure-sql-customers.png)
+
+#### **Sales Table**
+![Sales Table](./Screenshots/azure-sql-sales.png)
+
+#### **Products Table**
+![Products Table](./Screenshots/azure-sql-products.png)
 
 ## How to Run the Project
+### **Clone the Repository**
+```sh
+git clone https://github.com/phanikota08/AZ_RetailSales.git
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/phanikota08/AZ_RetailSales.git
 
 ## Screen Shots 
 
