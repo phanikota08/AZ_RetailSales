@@ -40,33 +40,33 @@ The high-level architecture includes:
 Dataset Source: [Kaggle AI Shop Dataset](https://www.kaggle.com/datasets/varunkumari/ai-shop-dataset)
 ## Azure Portal Resources
 ### **Azure Data Lake Storage (ADLS) - Bronze Container Overview**
-![ADLS Bronze Container](<img width="1158" alt="Screenshot 2025-03-20 at 3 44 52 PM" src="https://github.com/user-attachments/assets/03ce032a-fffe-487d-b002-e25732fe8d24" />
-)
+<img width="1158" alt="Screenshot 2025-03-20 at 3 44 52 PM" src="https://github.com/user-attachments/assets/03ce032a-fffe-487d-b002-e25732fe8d24" />
+
 
 ## Azure Data Factory (ADF) Pipeline
 ### **Pipeline Execution Screenshot**
-![ADF Pipeline Execution](<img width="1439" alt="Screenshot 2025-03-20 at 3 16 33 PM" src="https://github.com/user-attachments/assets/48431774-a233-45cf-97b1-f96fe637875f" />
-)
+<img width="1439" alt="Screenshot 2025-03-20 at 3 16 33 PM" src="https://github.com/user-attachments/assets/48431774-a233-45cf-97b1-f96fe637875f" />
+
 
 ### **Data Transformation - ADF Data Flow**
-![ADF Data Flow](<img width="1131" alt="Screenshot 2025-03-20 at 3 47 51 PM" src="https://github.com/user-attachments/assets/cb7aca20-cd79-4607-9b55-0cb16ca81483" />
-)
+<img width="1131" alt="Screenshot 2025-03-20 at 3 47 51 PM" src="https://github.com/user-attachments/assets/cb7aca20-cd79-4607-9b55-0cb16ca81483" />
+
 
 ## Azure SQL Database
 ### **Tables in Azure SQL**
 <img width="1425" alt="Screenshot 2025-03-20 at 3 50 02 PM" src="https://github.com/user-attachments/assets/6d3e7038-20eb-48f4-b387-ed06e25afa84" />
 
 #### **Customers Table**
-![Customers Table](<img width="1428" alt="Screenshot 2025-03-20 at 3 51 03 PM" src="https://github.com/user-attachments/assets/038be134-c293-411f-9952-1c2f5f3dc81c" />
-)
+<img width="1428" alt="Screenshot 2025-03-20 at 3 51 03 PM" src="https://github.com/user-attachments/assets/038be134-c293-411f-9952-1c2f5f3dc81c" />
+
 
 #### **Sales Table**
 <img width="1429" alt="Screenshot 2025-03-20 at 3 51 39 PM" src="https://github.com/user-attachments/assets/47e72579-a3ff-467c-880d-c1be79260781" />
 
 
 #### **Products Table**
-![Products Table](<img width="1422" alt="Screenshot 2025-03-20 at 3 52 14 PM" src="https://github.com/user-attachments/assets/25f06ed1-5370-43b3-8ab8-e5c6fa0e6f5b" />
-)
+<img width="1422" alt="Screenshot 2025-03-20 at 3 52 14 PM" src="https://github.com/user-attachments/assets/25f06ed1-5370-43b3-8ab8-e5c6fa0e6f5b" />
+
 
 ## How to Run the Project
 
