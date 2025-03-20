@@ -61,6 +61,54 @@ Dataset Source: [Kaggle AI Shop Dataset](https://www.kaggle.com/datasets/varunku
 ![Products Table](./Screenshots/azure-sql-products.png)
 
 ## How to Run the Project
+
+Clone the Repository:
+
+- ** Execution Steps:
+
+- Upload source CSV files (Customers & Products) to ADLS Bronze.
+
+- Extract JSON data from GitHub and move it to ADLS Bronze.
+
+- Configure and execute ADF Pipelines for transformation and loading.
+
+- Validate data in Azure SQL Database.
+
+- Use Power BI to build and visualize reports.
+
+## ADF Pipeline & Data Flow
+
+- Below are the key stages of the pipeline and transformation:
+
+- Copy Data from HTTPS API → Load JSON to ADLS
+
+- Transformation in the data flow 
+
+- Get Metadata → Validate data structures
+
+- ForEach Activity → Copy to azure SQL
+
+## Data Flow Transformation:
+
+- Filter and clean data from DS_Customers_Bronze, DS_Products_Bronze, DS_Sales_Bronze
+
+- Apply transformations (Aggregations, Derived Columns, Selections)
+
+- Load cleaned data into DS_Customers_Silver, DS_Products_Silver, DS_Sales_Silver
+
+## Azure SQL Database Tables
+
+- Final processed data is stored in Azure SQL Database with the following tables:
+
+- dbo.Customers (Customer details)
+
+- dbo.Products (Product details)
+
+- dbo.Sales (Sales transactions)
+
+
+
+
 ### **Clone the Repository**
 ```sh
 git clone https://github.com/phanikota08/AZ_RetailSales.git
